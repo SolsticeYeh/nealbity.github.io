@@ -1,77 +1,104 @@
-<html>
-<meta charset="utf-8">
-<title>俄罗斯方块</title> 
-<head>
- <style type="text/css"> 
-.diamonds1{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:50px 0 0 0; 
- } 
-.diamonds2{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:5px 0 0 0; 
- } 
- .diamonds3{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:-200px 0 0 205px; 
- } 
-  .diamonds4{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:-200px 0 0 410px; 
- } 
-  .diamonds5{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:-200px 0 0 615px; 
- } 
- .diamonds6{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:5px 0 0 205px; 
- } 
- .diamonds7{ 
- width:200px; 
- height:200px; 
- background-color:LightSkyBlue; 
- margin:50px 0 0 205px; 
- } 
-  </style> 
-</head>
-<body>
-<input type="submit" value="返回Stage1" name="Button" onclick ="location.href='stage1.html'"/>
- <div class="diamonds1"></div>
- <div class="diamonds2"></div> 
- <div class="diamonds3"></div> 
- <div class="diamonds2"></div> 
- <div class="diamonds1"></div>
- <div class="diamonds3"></div>
- <div class="diamonds2"></div> 
- <div class="diamonds3"></div>
- <div class="diamonds1"></div>
- <div class="diamonds2"></div> 
- <div class="diamonds3"></div>
- <div class="diamonds4"></div>
- <div class="diamonds1"></div>
- <div class="diamonds3"></div>
- <div class="diamonds4"></div>
- <div class="diamonds5"></div>
- <div class="diamonds1"></div>
- <div class="diamonds2"></div>
- <div class="diamonds3"></div> 
- <div class="diamonds6"></div> 
- <div class="diamonds7"></div> 
- <div class="diamonds2"></div> 
- <div class="diamonds3"></div> 
- <div class="diamonds2"></div> 
-</body>
-</html>
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>易星运发布站</title>
+<link rel="shortcut icon" type="image/x-icon" href="./易星运！_files/img/e.ico" media="screen" /> 
+<link href="./易星运！_files/bootstyle.css" rel="stylesheet" type="text/css" media="all">
+<script src="http://hm.baidu.com/hm.js?622477eb291252bd95468a393b5e73c7"></script><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?622477eb291252bd95468a393b5e73c7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><style type="text/css"></style>
+        <script src="./易星运！_files/jquery.min.js"></script>
+        <script>
+            //Front Wave
+            var front_wave_number = 0;
+            function front_wave() {
+                front_wave_number++;
+                document.getElementById("download-front_wave").style.backgroundPosition = front_wave_number + 'px';
+            }
+            window.setInterval(front_wave, 20);
+            
+            //Behind Wave
+            var behind_wave_number = 0;
+            function behind_wave() {
+                behind_wave_number++;
+                document.getElementById("download-behind_wave").style.backgroundPosition = behind_wave_number + 'px';
+            }
+            window.setInterval(behind_wave, 50);
+        </script>
+    </head>
+    <body>
+    <div class="topbar">
+    <div class="wraper">
+        <a href="易星运！.html" class="logo">eZodiac</a>
+        <div class="nav">
+            <ul class="parent">
+                <li class="current"><a href="易星运！.html">软件首页</a><span class="lines"></span></li>
+                <li><a href="使用手册.pdf">使用手册</a><span class="lines"></span></li>
+                <li><a href="制作历程.pdf">制作历程</a><span class="lines"></span></li>
+                <li><a href="https://github.com/nealbity/eZodiac.git">Git地址</a><span class="lines"></span></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+    <div id="main">
+        <div id="scroll">
+            <div class="section" id="download">
+                <div class="center">
+                <div class="snow-container download-container"></div>
+                    <img class="download-form" src="./易星运！_files/form.png">
+                    <div class="download-info">
+                       
+                    </div>
+                </div>
+                <div id="download-front_wave" style="background-position: 32549px 50%;"></div>
+                <div id="download-behind_wave" style="background-position: 13748px 50%;"></div>
+            </div>
+            <!--[if lte IE 7]>
+            <div style="background:red;color:white;text-align:center;padding:10px 0px">尊敬的用户：系统检测到您正在使用IE8以下的浏览器，请您立刻升级您的浏览器以获得良好的浏览体验！</div>
+            <![endif]-->
+            <div class="section">
+                <div class="center">
+                  <div class="bkg">
+                    <img class="summary" src="./易星运！_files/feature.png">
+                    </div>
+                    <div class="detail">
+                        <div class="detail-content">
+                          <h3 style="background:url(./易星运！_files/img/1.png) no-repeat;">易查询</h3>
+                            <p>不用打开网页，直接查询运势。</p>
+                        </div>
+                        <div class="detail-content">
+                            <h3 style="background:url(./易星运！_files/img/1.png) no-repeat;">易通用</h3>
+                            <p>UWP平台，win10系统，任何设备，给你一样的体验。</p>
+                        </div>
+                        <div class="detail-content">
+                            <h3 style="background:url(./易星运！_files/img/1.png) no-repeat;">易操作</h3>
+                            <p>界面简单明了，快速上手。</p>
+                      </div>
+                        <div class="detail-content">
+                            <h3 style="background:url(./易星运！_files/img/1.png) no-repeat;">易视图</h3>
+                            <p>书签式视图，一块一个颜色，方便你的阅读。</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="footer">
+
+		<div class="footer-bottm">
+				<p>Copyright © 2016 All Right Reserved</p>
+				<p>感谢大家的支持！微软大法好！</p>
+				<p>有问题请反馈至yezhou2@outlook.com</p>
+				<p>Powered by 光电工程学院 叶舟 2015210753</p>
+		</div>
+    </div>
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F622477eb291252bd95468a393b5e73c7' type='text/javascript'%3E%3C/script%3E"));</script><script src="http://hm.baidu.com/h.js?622477eb291252bd95468a393b5e73c7" type="text/javascript"></script>
+
+</body></html>
