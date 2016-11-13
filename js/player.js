@@ -15,7 +15,7 @@
 
 //改API地址在这里↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
-var APIurl = "http://api.mkblog.cn/163music/api.php";     //api地址
+var APIurl = "https://github.com/nealbity/nealbity.github.io/blob/master/api.php";     //api地址
 
 //改API地址在这里↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
